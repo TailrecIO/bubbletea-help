@@ -1,0 +1,14 @@
+site_name: Bubble Tea
+docs_dir: 'docs'
+site_dir: 'public'
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  palette:
+    primary: green
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences

@@ -17,5 +17,5 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_BUBBLETEA_DOCS }}'
-          projectId: bubbletea-docs
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_BUBBLETEA_HELP }}'
+          projectId: bubbletea-help

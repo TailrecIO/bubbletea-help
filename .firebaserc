@@ -1,5 +1,15 @@
 {
   "projects": {
-    "default": "bubbletea-docs"
-  }
+    "default": "bubbletea"
+  },
+  "targets": {
+    "bubbletea": {
+      "hosting": {
+        "help": [
+          "bubbletea-help"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
